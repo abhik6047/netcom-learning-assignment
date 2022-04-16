@@ -1,0 +1,31 @@
+.container{
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+}
+.container-banner-img{
+
+    float:right;
+    
+}
+.container-banner-text{
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    color: white;
+    font-weight: 600;
+}
+.container-duration{
+    position: relative;
+    top: 30px;
+}
+.container-levels{
+    position: relative;
+    top: 100px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
