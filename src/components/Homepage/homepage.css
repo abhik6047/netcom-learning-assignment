@@ -1,20 +1,33 @@
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
+    align-content: space-around;
+    grid-auto-flow: row;
+}
+.search-container {
+    align-items: center;
+    justify-items: center;
+}
+input {
+    font-size: 18px;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black
+}
 .container{
     border: 1px solid black;
     width: 400px;
     height: 300px;
 }
+.container-banner{
+    width:100%;
+}
 .container-banner-img{
+    width:100%;
+}
 
-    float:right;
-    
-}
-.container-banner-text{
-    position: relative;
-    bottom: 50px;
-    left: 100px;
-    color: white;
-    font-weight: 600;
-}
 .container-duration{
     position: relative;
     top: 30px;
@@ -28,4 +41,9 @@ ul{
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+}
+li{
+    border: 1px solid rgb(235, 234, 234);
+    background-color: rgb(233, 230, 230);
+    padding: 5px;
 }
