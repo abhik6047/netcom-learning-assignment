@@ -1,0 +1,40 @@
+
+.list_container {
+    display: flex;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .list_container li {
+    list-style: none;
+    background-color:rgb(175, 175, 175);
+    border: 1px solid black;
+    color: black;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .pagination_number button {
+    height: 45px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: rgb(35, 173, 228);
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.button_conatiner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.button_conatiner .prev{
+    margin-left: 35px;
+}
